@@ -1,0 +1,56 @@
+.wrapper {
+    text-align: center;
+    font-size: 50px;
+    background-color: black;
+    color: white;
+    padding: 5px;
+    font-family: serif;
+}
+.searchBox {
+    text-align: center;
+    padding: 20px;
+}
+.heroList {
+    display: flex;
+    flex-wrap: wrap;
+    width: 1100px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.heroWrapper {
+    padding: 20px;
+    display: grid;
+}
+.heroName {
+    text-align: center;
+    font-size: 20px;
+    font-weight: bolder;
+    background-color: #beb60d;
+}
+.heroDetail {
+    text-align: center;
+}
+#heroImg {
+    padding: 10px;
+}
+#description {
+    padding: 10px 200px;
+    text-decoration: underline;
+}
+.subContent {
+    display: flex;
+}
+.subContentList {
+    background-color: bisque;
+    padding: 10px;
+    margin: 20px;
+}
+
+.subContentList .heading {
+    background-color: aliceblue;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 10px;
+    text-align: center;
+    margin-bottom: 5px;
+}
