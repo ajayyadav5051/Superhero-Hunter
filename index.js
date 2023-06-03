@@ -142,7 +142,7 @@ function clearList() {
 function heroDetails(data) {
     console.log("hero data--->", data);
     localStorage.setItem("heroData", data.id)
-    window.open("./html/hero.html", "_self")
+    window.open("./hero.html", "_self")
     return data;
 }
 
